@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="loginForm">
+        <pre id="Welcome">Welcome back! <span>👋</span></pre>
+        <h3>Sign up to your account</h3>
+        <div class="form-group">
+          <label for="username">Your Name</label><br />
+          <input type="text" id="username" name="username" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Your Email</label><br />
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label><br />
+          <input type="password" id="password" name="password" required />
+        </div>
+        <div class="form-group">
+          <label for="password2">Confirm Password</label><br />
+          <input type="password" id="password2" name="password2" required />
+        </div>
+        <button type="submit">CONTINE</button>
+      </form>
+      <p id="loginStatus"></p>
+    </div>
+    <div class="sign-up">
+    <span class="sign">Don’t have an account? <span class="up">Sign up</span></span>
+</div>
+    <script src="script.js"></script>
+  </body>
+</html>
